@@ -16,6 +16,15 @@ private:
 
     void insert()
     {
-        
+        int num;
+        cout << "Enter a number: ";
+        cin >> num;
+        cout << endl;
+
+        // cek apakah antrian penuh
+        if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1))
+        {
+
+        }
     }
 };
