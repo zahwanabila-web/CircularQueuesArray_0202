@@ -63,7 +63,13 @@ private:
         }
         else
         {
-            
+            // jika element yang di hapus berada di posisi terkhir array, kembali ke awal array
+            if (FRONT == max - 1)
+                FRONT = 0;
+            else
+            {
+                
+            }
         }
     }
 };
