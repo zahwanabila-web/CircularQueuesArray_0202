@@ -104,6 +104,12 @@ private:
             }
 
             FRONT_position = 0;
+
+            // iterasi dari awal array hingga REAR
+            while (FRONT_position <= REAR_position)
+            {
+                
+            }
         }
     }
 };
