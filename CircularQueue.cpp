@@ -67,9 +67,27 @@ private:
             if (FRONT == max - 1)
                 FRONT = 0;
             else
+                FRONT = FRONT + 1;
+        }
+    }
+    void display()
+         {
+            int FRONT_position = FRONT;
+            int REAR_position = REAR;
+
+            //cek apakah antrian kosong
+            if (FRONT_position == -1)
+            {
+                cout << "Queue is empty\n";
+                return;
+            }
+
+            cout << "\nElement in the queue are....\n";
+
+            // jika FRONT <= REAR, iterasi dari FRONT hingga REAR
+            if (FRONT_position <= REAR_position)
             {
                 
             }
         }
-    }
 };
